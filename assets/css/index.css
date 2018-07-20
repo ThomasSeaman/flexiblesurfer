@@ -1,7 +1,6 @@
 body{
-    /* background-color: black; */
-    text-align: center;
-    /* color: black; */
+    align-items: center;
+    background-color: lightgray;
 }
 
 .jumbotron{
@@ -9,12 +8,26 @@ body{
     text-align: left;
 }
 
-.footer {
-    min-height: 260px;
-    background: #000000;
-    z-index: 1;
+.card-img-top{
+    width:100px;
+    height:100px;
 }
 
-.categoryImages{
-    padding:20px;
+.card{
+    align-items: center;
+
 }
+
+.topRow{
+    background-color: lightblue;
+    /* background-image: url("../images/trainimage.jpg"); */
+    margin-bottom: 15px;
+}
+
+.cardRow{
+    background-color: red;
+    align-content: center;
+    /* background-image: url("../images/trainimage.jpg"); */
+    margin-bottom: 15px;
+}
+
