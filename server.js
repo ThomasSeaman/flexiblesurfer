@@ -8,7 +8,6 @@ var app = express()
 
 // middleware
 app.use(express.static(path.join(__dirname, 'public/views')))
-app.use(express.static(path.join(__dirname, 'public/styles')))
 app.use(bodyparser.urlencoded({extended: true}))
 app.use(bodyparser.json())
 
