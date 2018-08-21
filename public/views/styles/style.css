@@ -1,10 +1,11 @@
 body{
-    background-color:black;
+    /* background-color:black; */
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
-.pagetitle{
+/* .pagetitle{
     color:lightgrey;
-}
+} */
 
 .home{
     background-color:black;
